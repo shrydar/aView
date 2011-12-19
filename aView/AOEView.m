@@ -36,9 +36,12 @@
     [[UIColor redColor] set];
     UIRectFrame(myFrame);
     
+    
+    
+    
     CGContextSetLineWidth(ctx, 1);
     
-    CGContextSetRGBFillColor (ctx, 0, 0, 1, .5); //5
+    CGContextSetRGBFillColor (ctx, 0, 1, 1, .5); //5
     CGContextFillRect (ctx, CGRectMake (0, 0, 100, 200));
     CGContextFillRect (ctx, myFrame);
     
