@@ -16,6 +16,7 @@
 		CEE8E771149A317700F053B1 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE8E76F149A317700F053B1 /* MainStoryboard_iPhone.storyboard */; };
 		CEE8E774149A317700F053B1 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE8E772149A317700F053B1 /* MainStoryboard_iPad.storyboard */; };
 		CEE8E777149A317700F053B1 /* AOEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE8E776149A317700F053B1 /* AOEViewController.m */; };
+		CEE8E77F149A333300F053B1 /* AOEView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE8E77E149A333300F053B1 /* AOEView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +24,18 @@
 		CEE8E75D149A317700F053B1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CEE8E75F149A317700F053B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CEE8E761149A317700F053B1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		CEE8E765149A317700F053B1 /* aView-Info.plist */ = {isa = PBXFileReference; path = "aView-Info.plist"; sourceTree = "<group>"; };
+		CEE8E765149A317700F053B1 /* aView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "aView-Info.plist"; sourceTree = "<group>"; };
 		CEE8E767149A317700F053B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CEE8E769149A317700F053B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CEE8E76B149A317700F053B1 /* aView-Prefix.pch */ = {isa = PBXFileReference; path = "aView-Prefix.pch"; sourceTree = "<group>"; };
-		CEE8E76C149A317700F053B1 /* AOEAppDelegate.h */ = {isa = PBXFileReference; path = AOEAppDelegate.h; sourceTree = "<group>"; };
+		CEE8E76B149A317700F053B1 /* aView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "aView-Prefix.pch"; sourceTree = "<group>"; };
+		CEE8E76C149A317700F053B1 /* AOEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AOEAppDelegate.h; sourceTree = "<group>"; };
 		CEE8E76D149A317700F053B1 /* AOEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AOEAppDelegate.m; sourceTree = "<group>"; };
 		CEE8E770149A317700F053B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		CEE8E773149A317700F053B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		CEE8E775149A317700F053B1 /* AOEViewController.h */ = {isa = PBXFileReference; path = AOEViewController.h; sourceTree = "<group>"; };
+		CEE8E775149A317700F053B1 /* AOEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AOEViewController.h; sourceTree = "<group>"; };
 		CEE8E776149A317700F053B1 /* AOEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AOEViewController.m; sourceTree = "<group>"; };
+		CEE8E77D149A333300F053B1 /* AOEView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOEView.h; sourceTree = "<group>"; };
+		CEE8E77E149A333300F053B1 /* AOEView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOEView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				CEE8E772149A317700F053B1 /* MainStoryboard_iPad.storyboard */,
 				CEE8E775149A317700F053B1 /* AOEViewController.h */,
 				CEE8E776149A317700F053B1 /* AOEViewController.m */,
+				CEE8E77D149A333300F053B1 /* AOEView.h */,
+				CEE8E77E149A333300F053B1 /* AOEView.m */,
 				CEE8E764149A317700F053B1 /* Supporting Files */,
 			);
 			path = aView;
@@ -167,6 +172,7 @@
 				CEE8E76A149A317700F053B1 /* main.m in Sources */,
 				CEE8E76E149A317700F053B1 /* AOEAppDelegate.m in Sources */,
 				CEE8E777149A317700F053B1 /* AOEViewController.m in Sources */,
+				CEE8E77F149A333300F053B1 /* AOEView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
